@@ -42,8 +42,8 @@ DATABASE_URL = "postgresql+asyncpg://postgres:osama1122334455!@localhost:5432/my
 ## Database Migrations
 Alembic is used for handling database migrations. To create and apply migrations, follow these steps:
 
-`alembic revision --autogenerate -m "Initial migration`
-`alembic upgrade head`
+- `alembic revision --autogenerate -m "Initial migration`
+- `alembic upgrade head`
 
 ## Running the Application
 To run the FastAPI application, use the following command:
@@ -56,7 +56,7 @@ Visit http://localhost:8000/docs to access the interactive API documentation pro
 You can now use the endpoints provided by the FastAPI application to manage users and authenticate them via JWT.
 
 #### Acknowledgments
-FastAPI - The web framework used.
-FastAPI Users - Library for handling user management.
-PostgreSQL - The database used for this project.
-Alembic - For database migrations.
+- FastAPI - The web framework used.
+- FastAPI Users - Library for handling user management.
+- PostgreSQL - The database used for this project.
+- Alembic - For database migrations.
